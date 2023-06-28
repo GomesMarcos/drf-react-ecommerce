@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Rating = ({ value, text, color }) => {
+const Rating = ({ value, text, color = '#f8e825' }) => {
   const stars = []
   for (let index = 0; index < 5; index++) {
     stars.push(
